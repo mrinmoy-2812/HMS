@@ -1,277 +1,310 @@
 <!DOCTYPE html>
-<html> 
-<head>
-		<title> Mega Hospital | Blog </title>
+<html>
 
+<head>
+	<title> Mega Hospital | Blog </title>
 
 	<!-- Web Fonts -->
 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin">
 
 	<!-- CSS Global Compulsory -->
-	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets1/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets1/css/style.css">
 
 	<!-- CSS Header and Footer -->
-	<link rel="stylesheet" href="assets/css/header.css">
-	<link rel="stylesheet" href="assets/css/footer.css">
+	<link rel="stylesheet" href="assets1/css/header.css">
+	<link rel="stylesheet" href="assets1/css/footer.css">
 
 	<!-- CSS Implementing Plugins -->
-	<link rel="stylesheet" href="assets/plugins/line-icons-pro/styles.css">
-	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
-	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets1/plugins/line-icons-pro/styles.css">
+	<link rel="stylesheet" href="assets1/plugins/line-icons/line-icons.css">
+	<link rel="stylesheet" href="assets1/plugins/font-awesome/css/font-awesome.min.css">
+
+	<!-- CSS Page Style -->
+	<link rel="stylesheet" href="assets1/css/blog_timeline.css">
+
 
 	<!-- CSS Customization -->
-	<link rel="stylesheet" href="assets/css/custom.css">
-
-
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
-	<link rel="stylesheet" type="text/css" href="style1.css">
-	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-	
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	
-	<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<link rel="stylesheet" type="text/css" href="assets1/css/custom.css">
 
 
 
 
-	
-	<style>
-		.bg-skin {
-			background: #0062cc;
-
-		}
 
 
-		.nav>li>a:hover,
-		.nav>li>a:focus {
-			text-decoration: none;
-			background-color: #251f1f00;
-			/* color: blue; */
-		}
 
-		.btn-skin {
-			background-color: #0062cc;
-			border-color: #0062cc;
-		}
 
-		.box h4 {
-			font-size: 24px;
-			color: white;
-			font-family: 'IBM Plex Sans', sans-serif;
-		}
 
-		.service-desc h5 {
-			margin-bottom: 10px;
-			color: white;
-			font-family: 'IBM Plex Sans', sans-serif;
-		}
 
-		.fa-stethoscope:before {
-			color: white;
-		}
 
-		.fa-h-square:before {
-			color: white;
-		}
 
-		.fa-wheelchair:before {
-			color: white;
-		}
+<!-- css -->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
-		.fa-filter:before {
-			color: white;
-		}
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
+<link href="css/animate.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 
-		.fa-plus-square:before {
-			color: white;
-		}
+<!-- boxed bg -->
+<link id="bodybg" href="bodybg/bg1.css" rel="stylesheet" type="text/css" />
+<!-- template skin -->
+<link id="t-colors" href="color/default.css" rel="stylesheet">
 
-		.fa-user-md:before {
-			color: white;
-			background: #00ffff2b;
-		}
+<style>
+  .bg-skin {
+	background: #0062cc;
 
-		.fa-check:before {
-			background: #084dbe;
-		}
+  }
 
-		.fa-list-alt:before {
-			background: #005cd0;
-		}
 
-		.fa-hospital-o:before {
-			background: #0eacf0de
-		}
+  .nav>li>a:hover,
+  .nav>li>a:focus {
+	text-decoration: none;
+	background-color: #251f1f00;
+	/* color: blue; */
+  }
 
-		.fa-heartbeat:before {
-			color: white;
-		}
+  .btn-skin {
+	background-color: #0062cc;
+	border-color: #0062cc;
+  }
 
-		footer .widget h5 {
-			font-size: 20px;
-			margin-bottom: 10px;
-			text-transform: uppercase;
-			color: white;
-		}
+  .box h4 {
+	font-size: 24px;
+	color: white;
+	font-family: 'IBM Plex Sans', sans-serif;
+  }
 
-		.intro-content {
-			/*background: url(../img/dummy/bg1.jpg) no-repeat top center;*/
-			background: -webkit-linear-gradient(left, #3931af, #00c6ff);
-			padding: 200px 0 60px;
-		}
-	</style>
+  .service-desc h5 {
+	margin-bottom: 10px;
+	color: white;
+	font-family: 'IBM Plex Sans', sans-serif;
+  }
+
+  .fa-stethoscope:before {
+	color: white;
+  }
+
+  .fa-h-square:before {
+	color: white;
+  }
+
+  .fa-wheelchair:before {
+	color: white;
+  }
+
+  .fa-filter:before {
+	color: white;
+  }
+
+  .fa-plus-square:before {
+	color: white;
+  }
+
+  .fa-user-md:before {
+	color: white;
+	background: #00ffff2b;
+  }
+
+  .fa-check:before {
+	background: #084dbe;
+  }
+
+  .fa-list-alt:before {
+	background: #005cd0;
+  }
+
+  .fa-hospital-o:before {
+	background: #0eacf0de
+  }
+
+  .fa-heartbeat:before {
+	color: white;
+  }
+
+  footer .widget h5 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: white;
+  }
+
+  .intro-content {
+	/*background: url(../img/dummy/bg1.jpg) no-repeat top center;*/
+	background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+	padding: 200px 0 60px;
+  }
+</style>
+
+
+
+
+
 
 
 </head>
-<body>
-	<div class="wrapper"  style="background: -webkit-linear-gradient(left, #3931af, #00c6ff);color: white">
 
+<body>
+	<div class="wrapper" style="background: -webkit-linear-gradient(left, #3931af, #00c6ff);">
+		<!--=== Header v1 ===-->
+		<div class="container navigation"
+		style="background: -webkit-linear-gradient(left, #3931af, #00c6ff);width: 98.85vw;height: 70px;padding-top: 10px;">
+	
+		<div class="navbar-header page-scroll">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+			<i class="fa fa-bars"></i>
+		  </button>
+		  <a class="navbar-brand js-scroll-trigger" href="index.php"
+			style="margin-top: 0px;font-family: 'IBM Plex Sans', sans-serif;">
+			<h5 style="color: white;"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp GLOBAL HOSPITALS</h5>
+		  </a>
+		</div>
+	
+		<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+		  <ul class="nav navbar-nav">
+			<li><a href="contact.html"
+				style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">HOME</a></li>
+			<li><a href="contact.html"
+				style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">ABOUT US</a></li>
+			<li><a href="contact.html"
+				style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">CONTACT</a></li>
+			<li><a href="blog.html"
+				style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">BLOGS</a></li>
+			<li><a href="terms.html"
+				style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">Term & Conditions</a></li>
+		  </ul>
+		</div>
+	
+	  </div>
+		<!-- End Navbar -->
 
 
 		<!-- Image title -->
-		<nav class="navbar navbar-expand-lg navbar-dark " id="mainNav" >
-			<div class="container">
-		
-			  <a class="navbar-brand js-scroll-trigger" href="#" style="margin-top: 10px;margin-left:-65px;font-family: 'IBM Plex Sans', sans-serif;"><h4><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp GLOBAL HOSPITALS</h4></a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			  </button>
-			  <div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="nav navbar-nav">
-					<li class="active" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;"><a href="index.php"
-						style="color: white">HOME</a></li>
-					<li class="active" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;"><a href="services.html"
-						style="color: white">ABOUT US</a></li>
-					<li><a href="contact.html"
-						style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">CONTACT</a></li>
-					<li><a href="blog.html"
-						style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">BLOGS</a></li>
-					<li><a href="terms.html"
-						style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">Term & Conditions</a></li>
-				  </ul>
-			  </div>
-			</div>
-		  </nav>
-		
-			
+
 		<div style="text-align: center; margin-top: 50px; margin-bottom: 40px;">
-			<h2>Laboratory</h2>
+			<h2 style="color:white">BLOGS</h2>
 		</div>
-	<!-- End title  -->
+		<!-- End title  -->
 
 		<!--=== Content Part ===-->
 		<!-- BLOG 1 -->
-    <div class="container content">
-      <ul class="timeline-v1">
-        <li>
-          <div class="timeline-badge primary"><i class="glyphicon glyphicon-record"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <img class="img-responsive" src="assets1/img/blogs/1.jpg" alt=""/>
-            </div>
-            <div class="timeline-body text-justify" >
-              <h2 class="font-light" style="color:white">How to maintain bone and joint health during winters?</h2>
-              <p style="color:rgb(202, 202, 202)">It is usually due to restricted absorption of Vitamin D (sunlight) in your body during winter or due to decreased blood flow to bones to increase body temperature or due to restricted mobility to conserve energy which allows accumulation of inflammatory markers or toxins in joints. This leads to stiffness and pain in joints. Ignoring problems related to bones and joints which can lead to further deterioration.</p>
-              <p style="color:rgb(202, 202, 202)">These are few tips to keep your joints and muscles healthy during this winter :- </p>
-              <p style="color:rgb(202, 202, 202)">1) A balanced diet is key to overall healthy living. Eat a diet which comprises of fruits, vegetables, cereals, dairy products and pulses.<br/>
+		<div class="container content" >
+			<ul class="timeline-v1">
+				<!-- Blog 1 -->
+				<li>
+					<div class="timeline-badge primary"><i class="glyphicon glyphicon-record"></i></div>
+					<div class="timeline-panel">
+						<div class="timeline-heading">
+							<img class="img-responsive" src="assets1/img/blogs/1.jpg" alt="" />
+						</div>
+						<div class="timeline-body text-justify">
+							<h2 class="font-light"><a href="#" style="color:rgb(255, 255, 255)">How to maintain bone and joint health during winters?</a></h2>
+							<p style="color:rgb(225, 225, 225)">It is usually due to restricted absorption of Vitamin D (sunlight) in your body during winter or due to decreased blood flow to bones to increase body temperature or due to restricted mobility to conserve energy which allows accumulation of inflammatory markers or toxins in joints. This leads to stiffness and pain in joints. Ignoring problems related to bones and joints which can lead to further deterioration.</p>
+							<p style="color:rgb(225, 225, 225)">These are few tips to keep your joints and muscles healthy during this winter :- </p>
+							<p style="color:rgb(225, 225, 225)">1) A balanced diet is key to overall healthy living. Eat a diet which comprises of fruits, vegetables, cereals, dairy products and pulses.<br />
+								2) Eat foods rich in Vitamin K, D and C.<br />
+								3) Physical activity is also important. Exercising strengthens the muscles and maintains weight.<br />
+								4) Do not over eat and reduce weight.
+							</p>
+						</div>
+						<div class="timeline-footer">
+							<ul class="list-inline news-v1-info">
+								<li><span style="margin-left: 120px;">By</span> <a href="#" style="color:rgb(225, 225, 225)">Dr. Ramneek Mahajan</a></li>
+								<li>|</li>
+								<li style="color:rgb(225, 225, 225)"><i class="fa fa-clock-o"></i> December 31, 2020</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<!-- end of blog 1 -->
+			
+				<!-- Blog 2 -->
+				<li class="timeline-inverted">
+					<div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert"></i></div>
+					<div class="timeline-panel">
+						<div class="timeline-heading">
+							<img class="img-responsive" src="assets1/img/blogs/2.jpg" alt="" />
+						</div>
+						<div class="timeline-body text-justify">
+							<h2 class="font-light"><a href="#" style="color:rgb(255, 255, 255)">Robot Assisted Kidney Transplant in France</a></h2>
+							<p style="color:rgb(225, 225, 225)">First robot assisted kidney transplant (RAKT) was performed in France in 2002. Since then, it is gradually gaining foothold in transplant arena. Majority of work is being done in India, Europe and few centres in USA. World wide experience has established its functional outcomes comparable to open transplant. The patient has got multiple benefits :-</p>
+							<p style="color:rgb(225, 225, 225)">1) Lesser pain – early mobility, early recovery</p>
+							<p style="color:rgb(225, 225, 225)">2) Less chance of wound infection – no adverse effect on graft function</p>
+							<p style="color:rgb(225, 225, 225)">3) Less blood loss, Minimal scars, improved cosmetic effects</p>
+							<p style="color:rgb(225, 225, 225)">Max Super Specialty Hospital, Saket, New Delhi is amongst the few centres across the world routinely doing RAKT.</p>
+						</div>
+						<div class="timeline-footer">
+							<ul class="list-unstyled list-inline blog-info">
+								<li><span style="margin-left: 120px;">By</span> <a href="#" style="color:rgb(225, 225, 225)">Dr. Anant Kumar</a></li>
+								<li>|</li>
+								<li style="color:rgb(225, 225, 225)"><i class="fa fa-clock-o"></i> December 31, 2020</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<!-- end of blog 2 -->
+			
+				<!-- Blog 3 -->
+				<li>
+					<div class="timeline-badge primary"><i class="glyphicon glyphicon-record"></i></div>
+					<div class="timeline-panel">
+						<div class="timeline-heading">
+							<img class="img-responsive" src="assets1/img/blogs/3.jpg" alt="" />
+						</div>
+						<div class="timeline-body text-justify">
+							<h2 class="font-light"><a href="#" style="color:rgb(255, 255, 255)">Body Weight - What you must know!</a></h2>
+							<p style="color:rgb(225, 225, 225)">Q: Why is body weight so important to us?</p>
+							<p style="color:rgb(225, 225, 225)">A: Bodyweight is a vital part of our physical and mental health.</p>
+							<p style="color:rgb(225, 225, 225)">Q: What is an ideal body weight?</p>
+							<p style="color:rgb(225, 225, 225)">A: There is no single defined value for an ideal weight. The ideal weight for a person depends on their height and age.</p>
+							<p style="color:rgb(225, 225, 225)">Q: Why is there a weight range?</p>
+							<p style="color:rgb(225, 225, 225)">A: Your weight depends upon a number of factors. These include your age, muscle mass fat mass, gender and body shape.</p>
+						</div>
+						<div class="timeline-footer">
+							<ul class="list-unstyled list-inline blog-info">
+								<li><span style="margin-left: 120px;">By</span> <a href="#" style="color:rgb(225, 225, 225)">Dr. Vandana Soni</a></li>
+								<li>|</li>
+								<li style="color:rgb(225, 225, 225)"><i class="fa fa-clock-o"></i> December 31, 2020</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<!-- end of blog 3 -->
+			
+				<!-- Blog 4 -->
+				<li class="timeline-inverted">
+					<div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert"></i></div>
+					<div class="timeline-panel">
+						<div class="timeline-heading">
+							<img class="img-responsive" src="assets1/img/blogs/4.jpg" alt="" />
+						</div>
+						<div class="timeline-body text-justify">
+							<h2 class="font-light"><a href="#" style="color:rgb(255, 255, 255)">IMPORTANCE OF SLEEP IN BRAIN HEALTH</a></h2>
+							<p style="color:rgb(225, 225, 225)">Those mood swings are for real…. Your brain regulates the hormones and the neurotransmitters. These chemicals are basically responsible for the way you feel. Chemical compounds like dopamine, serotonin, oxytocin help us feeling good, happy and upbeat. Sleep plays an important role in their regulation. Lack of sleep can make you irritated, impulsive and angry. The moments when you over react and have an outburst are more likely to happen when you have not slept well.</p>
+							<p style="color:rgb(225, 225, 225)">Lack of sleep makes you slow. Sleep deprivation slows down the brain’s ability to react quickly. Tired drivers and pilots tend to have more accidents and that is a well known fact. Sleep deprivation slows down the brain akin to getting drunk. Just like you should not be driving under the influence of alcohol the same applies to sleep deprivation.</p>
+						</div>
+						<div class="timeline-footer">
+							<ul class="list-unstyled list-inline blog-info">
+								<li><span style="margin-left: 120px;">By</span> <a href="#" style="color:rgb(225, 225, 225)">Dr. Manish Baijal</a></li>
+								<li>|</li>
+								<li style="color:rgb(225, 225, 225)"><i class="fa fa-clock-o"></i> December 31, 2020</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<!-- end of blog 4 -->
+			</ul>
+			
+		</div>
 
-			2) Eat foods rich in Vitamin K, D and C.<br/>
-			3) Physical activity is also important. Exercising strengthens the muscles and maintains weight. <br/>
-			4) Do not over eat and reduce weight.
-			</p>
-            </div>
-            <div class="timeline-footer" >
-              <ul class="list-inline news-v1-info">
-				<li><span style="margin-left: 120px;">By</span> <a href="#"  style="color:rgb(202, 202, 202)">Dr. Ramneek Mahajan</a></li>
-				<li>|</li>
-				<li  style="color:rgb(202, 202, 202)"><i class="fa fa-clock-o"></i> December 31, 2020</li>
-               </ul>
-            </div>
-          </div>
-        </li>
-        <!-- end of blog 1 -->
-      <!-- Blog 2 -->
-<li class="timeline-inverted">
-	<div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert"></i></div>
-	<div class="timeline-panel">
-	  <div class="timeline-heading">
-		<img class="img-responsive" src="assets1/img/blogs/2.jpg" alt=""/>
-	  </div>
-	  <div class="timeline-body text-justify">
-		<h2 class="font-light" style="color:white">Robot Assisted Kidney Transplant in France</h2>
-		<p style="color:rgb(202, 202, 202)">First robot-assisted kidney transplant (RAKT) was performed in France in 2002. Since then, it is gradually gaining a foothold in transplant arena...</p>
-		<p style="color:rgb(202, 202, 202)">1) Lesser pain – early mobility, early recovery</p>
-		<p style="color:rgb(202, 202, 202)">2) Less chance of wound infection – no adverse effect on graft function</p>
-		<p style="color:rgb(202, 202, 202)">3) Less blood loss, Minimal scars, improved cosmetic effects</p>
-		<p style="color:rgb(202, 202, 202)">Max Super Specialty Hospital, Saket, New Delhi is amongst the few centers...</p>
-	  </div>
-	  <div class="timeline-footer">
-		<ul class="list-inline news-v1-info">
-		  <li><span style="margin-left: 120px;">By</span> <a href="#" style="color:rgb(202, 202, 202)">Dr. Anant Kumar</a></li>
-		  <li>|</li>
-		  <li style="color:rgb(202, 202, 202)"><i class="fa fa-clock-o"></i> December 31, 2020</li>
-		</ul>
-	  </div>
-	</div>
-  </li>
-  
-  <!-- Blog 3 -->
-  <li>
-	<div class="timeline-badge primary"><i class="glyphicon glyphicon-record"></i></div>
-	<div class="timeline-panel">
-	  <div class="timeline-heading">
-		<img class="img-responsive" src="assets1/img/blogs/3.jpg" alt=""/>
-	  </div>
-	  <div class="timeline-body text-justify">
-		<h2 class="font-light" style="color:white">Body Weight - What you must know!</h2>
-		<p style="color:rgb(202, 202, 202)">Q: Why is body weight so important to us?</p>
-		<p style="color:rgb(202, 202, 202)">A: Bodyweight is a vital part of our physical and mental health.</p>
-		<p style="color:rgb(202, 202, 202)">Q: What is an ideal body weight?</p>
-		<p style="color:rgb(202, 202, 202)">A: There is no single defined value for an ideal weight. The ideal weight for a person depends on their height and age.</p>
-		<p style="color:rgb(202, 202, 202)">Q: Why is there a weight range?</p>
-		<p style="color:rgb(202, 202, 202)">A: Your weight depends on several factors, including age, muscle mass, fat mass, gender, and body shape.</p>
-	  </div>
-	  <div class="timeline-footer">
-		<ul class="list-unstyled list-inline blog-info">
-		  <li><span style="margin-left: 120px;">By</span> <a href="#" style="color:rgb(202, 202, 202)">Dr. Vandana Soni</a></li>
-		  <li>|</li>
-		  <li style="color:rgb(202, 202, 202)"><i class="fa fa-clock-o"></i> December 31, 2020</li>
-		</ul>
-	  </div>
-	</div>
-  </li>
-  
-  <!-- Blog 4 -->
-  <li class="timeline-inverted">
-	<div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert"></i></div>
-	<div class="timeline-panel">
-	  <div class="timeline-heading">
-		<img class="img-responsive" src="assets1/img/blogs/4.jpg" alt=""/>
-	  </div>
-	  <div class="timeline-body text-justify">
-		<h2 class="font-light" style="color:white">IMPORTANCE OF SLEEP IN BRAIN HEALTH</h2>
-		<p style="color:rgb(202, 202, 202)">Those mood swings are for real... Your brain regulates the hormones and neurotransmitters responsible for how you feel...</p>
-		<p style="color:rgb(202, 202, 202)">Lack of sleep makes you slow. Sleep deprivation slows down the brain’s ability to react quickly...</p>
-	  </div>
-	  <div class="timeline-footer">
-		<ul class="list-unstyled list-inline blog-info">
-		  <li><span style="margin-left: 120px;">By</span> <a href="#" style="color:rgb(202, 202, 202)">Dr. Manish Baijal</a></li>
-		  <li>|</li>
-		  <li style="color:rgb(202, 202, 202)"><i class="fa fa-clock-o"></i> December 31, 2020</li>
-		</ul>
-	  </div>
-	</div>
-  </li>
-  
-
-  </ul>
-</div>
 
 
-			</div><!--/wrapper-->
+	</div><!--/wrapper-->
 
 
-			</body>
-			</html>
+</body>
+
+</html>
