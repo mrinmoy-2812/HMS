@@ -82,7 +82,7 @@ function checklen()
 <div class="container register" style="font-family: 'IBM Plex Sans', sans-serif;">
                 <div class="row">
                     <div class="col-md-3 register-left" style="margin-top: 10%;right: 5%">
-                        <img src="./img/logo_white.png" alt="" style="height: 9rem ; width: 10rem"/>
+                        <img src="./img/snakedoc.png" alt="" style="height: 15rem ; width: 15rem"/>
                         <h3>Welcome</h3>
                        
                     </div>
